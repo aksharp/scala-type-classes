@@ -6,7 +6,7 @@ import scala.annotation.tailrec
 
 trait Validator[F[_], I, E] {
 
-  protected[validators] val validationToErrorMap: Map[I => Boolean, E]
+  protected[tc] val validationToErrorMap: Map[I => Boolean, E]
 
   def validate(
                 item: I
