@@ -1,6 +1,6 @@
 name := "scala-type-classes"
 
-version := "0.1.4"
+version := "0.1.5"
 
 scalaVersion := "2.13.4"
 
