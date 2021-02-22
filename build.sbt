@@ -1,12 +1,14 @@
 name := "scala-type-classes"
 
-version := "0.1.3"
+version := "0.1.4"
 
 scalaVersion := "2.13.4"
 
 libraryDependencies += "org.typelevel" %% "cats-core" % "2.4.2"
 
 // publish
+
+usePgpKeyHex("59934C580565D7C358C3AB8C62DD7D28B3D79883")
 
 ThisBuild / organization := "io.github.aksharp"
 ThisBuild / organizationName := "aksharp"
