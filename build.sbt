@@ -14,6 +14,8 @@ ThisBuild / organization := "io.github.aksharp"
 ThisBuild / organizationName := "aksharp"
 ThisBuild / organizationHomepage := Some(url("http://github.com/aksharp"))
 
+ThisBuild / crossScalaVersions in ThisBuild := Seq("2.12.11", "2.13.4")
+
 ThisBuild / scmInfo := Some(
   ScmInfo(
     url("https://github.com/aksharp/scala-type-classes"),
